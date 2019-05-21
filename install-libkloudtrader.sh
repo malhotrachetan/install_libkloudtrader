@@ -6,4 +6,4 @@ cd install_libkloudtrader
 make
 make install
 pip3 install pipenv
-pip3 install git+https://github.com/KloudTrader/libkloudtrader.git#egg=libkloudtrader
+pipenv install --system --deploy --ignore-pipfile
