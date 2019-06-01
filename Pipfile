@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-libkloudtrader = {editable = true, git = "https://github.com/KloudTrader/libkloudtrader.git"}
+libkloudtrader = {editable = true, git = "https://github.com/kloudtrader-github/libkloudtrader-internal.git"}
 
 [requires]
 python_version = "3.6"
