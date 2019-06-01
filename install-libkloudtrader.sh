@@ -5,5 +5,4 @@ cd install_libkloudtrader
 ./configure --prefix=/usr
 make
 make install
-pip install pipenv
-pipenv install --system --deploy --ignore-pipfile
+pip install -e https://github.com/kloudtrader-github/libkloudtrader-internal.git#egg=libkloudtrader
